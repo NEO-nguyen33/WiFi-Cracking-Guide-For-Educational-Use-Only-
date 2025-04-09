@@ -1,0 +1,2 @@
+airmon-ng check kill     # Stop conflicting services
+airmon-ng start wlan0    # Enables monitor mode (becomes wlan0mon)

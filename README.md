@@ -38,13 +38,3 @@ By using this repository, **you agree** that:
 ---
 > 🛡️ **Be a white hat. Hack responsibly. Stay legal.**
 ---
-## 🚦 Step-by-Step: WPA/WPA2 Cracking (Handshake Method)
-
-### 1. Enable Monitor Mode
-
-```bash
-ifconfig wlan0 down
-iwconfig wlan0 mode monitor
-ifconfig wlan0 up
-
-

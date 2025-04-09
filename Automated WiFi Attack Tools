@@ -1,0 +1,38 @@
+1️⃣ Wifite – One-click WPA Cracking
+apt install wifite
+wifite
+
+Captures handshake automatically
+Supports WPS brute-force & PMKID
+Integrates with aircrack-ng, pyrit, etc.
+
+2️⃣ Airgeddon – Evil Twin + PMKID + MITM Suite
+
+git clone https://github.com/v1s1t0r1sh3r3/airgeddon.git
+cd airgeddon
+bash airgeddon.sh
+Menu-driven
+
+Evil Twin + Captive Portal
+PMKID / Handshake attack
+SSL-strip, DNS spoofing
+3️⃣ Fluxion – Evil Twin Phishing Attack
+
+git clone https://github.com/FluxionNetwork/fluxion.git
+cd fluxion
+sudo ./fluxion.sh
+
+Creates fake AP with same SSID
+Phishing login portal for WPA2
+Captures credentials in real time
+
+4️⃣ WiFi Pumpkin 3 – Rogue AP Toolkit
+
+git clone https://github.com/P0cL4bs/wifipumpkin3.git
+cd wifipumpkin3
+sudo python3 setup.py install
+
+Evil Twin + DNS spoof
+Fake Captive Portal
+GUI & CLI
+Integration with MITM tools

@@ -1,0 +1,7 @@
+1. Convert .cap to .hccapx
+cap2hccapx capture.cap capture.hccapx
+2. Crack with Hashcat
+hashcat -m 2500 capture.hccapx rockyou.txt --force
+Or with newer WPA PMKID format (22000):
+hcxpcapngtool -o capture.22000 capture.pcapng
+hashcat -m 22000 capture.22000 rockyou.txt --force

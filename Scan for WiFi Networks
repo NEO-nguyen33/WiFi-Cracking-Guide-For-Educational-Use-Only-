@@ -1,0 +1,6 @@
+airodump-ng wlan0mon
+
+Note:
+BSSID (MAC of router)
+Channel (CH)
+ESSID (WiFi name)
